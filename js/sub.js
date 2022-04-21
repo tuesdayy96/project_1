@@ -45,6 +45,7 @@ function click_1(){
     btn_2.style.display = 'none';
     btn_3.style.display = 'none';
     btn_1.style.display = 'block';
+    document.querySelector('.pd_info').style.height = '400px';
 }
 function click_2(){
     detailbtn2.classList.add('active');
@@ -53,6 +54,7 @@ function click_2(){
     btn_1.style.display = 'none';
     btn_3.style.display = 'none';
     btn_2.style.display = 'block';
+    document.querySelector('.pd_info').style.height = '800px';
 }
 function click_3(){
     detailbtn3.classList.add('active');
@@ -61,6 +63,7 @@ function click_3(){
     btn_1.style.display = 'none';
     btn_2.style.display = 'none';
     btn_3.style.display = 'block';
+    document.querySelector('.pd_info').style.height = '400px';
 }
 
 

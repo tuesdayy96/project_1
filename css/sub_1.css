@@ -3,7 +3,7 @@
 
 #buy{
     width: 1200px;
-    height: 2100px;
+    height: 100%;
     margin: 0 auto;
     background-color: aliceblue;
 }
@@ -143,8 +143,9 @@
 }
 .buybox2{
     width: 100%;
-    height: 1100px;
-    margin: 80px auto;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 80px;
 }
 .pd_info{
     display: flex;
@@ -165,7 +166,7 @@
     width: 1080px;
     height: 300px;
     font-size: 20px;
-    overflow: auto;
+    /* overflow: auto; */
 }
 .btn_info2, .btn_info3{
     left: 15px;
@@ -196,6 +197,22 @@
     border-bottom: 3px solid rgba(0,0,0,1);
     opacity: 1;
 }
+.etc{
+    width: 600px;
+    margin-left: 40px;
+    border: 5px ridge #eee;
+    border-collapse: collapse;
+    
+} 
+.etc th, td{
+    border:1px solid #333;
+    text-align: center;
+    height: 30px;
+    line-height: 10px;
+}
+.etc th{
+    background-color: #e8e8e8;
+}
 .relate{
     margin: 80px auto;
 }
@@ -216,8 +233,9 @@
 }
 .Gallery{
     width: 100%;
-    height: 470px;
+    height: 550px;
     margin: 80px auto;
+    margin-bottom: 0;
 }
 .Gallery h1{
     font-size: 36px;
