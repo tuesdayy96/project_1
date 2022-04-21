@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+
+#buy{
+    width: 1200px;
+    height: 2100px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.buybox{
+    width:1000px;
+    height: 700px;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    position: relative;
+}
+.root{
+    font-size: 10px;
+    display: flex;
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 700;
+
+}
+.root li:nth-child(7) a{
+    color: rgba(200,200,0,1);
+}
+.subimg{
+    width: 500px;
+    height: 600px;
+    margin-top: 10px;
+    position: absolute;
+    margin: 20px 0 0 40px;
+    display: inline-block;
+}
+.subimg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.autoslide li{
+    animation: fade 2s;
+}
+@keyframes fade {
+        from{
+            opacity: .4;
+        }
+        to{
+            opacity: 1;
+        }
+}
+.imgtext{
+    width: 400px;
+    height: 630px;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    top:30px;
+}
+.imgtext > p{
+    text-align: left;
+    letter-spacing: 1em;
+    font-size: 30px;
+    font-weight:900;
+}
+.imgtext span{
+    font-size: 30px;
+    font-weight:900;
+}
+.counts > input{
+    width: 45px;
+    height: 45px;
+    border:0;
+    font-size: 30px;
+    padding: 0;
+    text-align: center;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.countbox{
+    text-align: right;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    height: 50px;
+    line-height: 50px;
+}
+.countbox input{
+    border: 0;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+.addbox{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.addbox span{
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+.add1{
+    background-color: #222;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+}
+.add1:hover{
+    box-shadow: 0 5px 8px #666;
+    transform:scale(1.1)
+}
+.add2{
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+}
+.add2:hover{
+    box-shadow: 0 5px 8px #666;
+    transform:scale(1.1)
+}
+.share img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+}
+
+.sh_con{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.buybox2{
+    width: 100%;
+    height: 1100px;
+    margin: 80px auto;
+}
+.pd_info{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    padding: 0;
+    margin: 80px auto;
+}
+.detailbox{
+    width: 350px;
+    padding: 0;
+}
+.detailbox > div{
+    text-align: justify;
+    position: absolute;
+    width: 1080px;
+    height: 300px;
+    font-size: 20px;
+    overflow: auto;
+}
+.btn_info2, .btn_info3{
+    left: 15px;
+    padding: 0;
+    display: none;
+}
+
+.pd_info button{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    background-color: aliceblue;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    cursor: pointer;
+    opacity: 0.7;
+}
+.pd_info button:hover{
+    border-bottom: 3px solid rgba(0,0,0,1);
+    opacity: 1;
+    box-shadow: 0 0 5px #666;
+}
+.pd_info .active{
+    border-bottom: 3px solid rgba(0,0,0,1);
+    opacity: 1;
+}
+.relate{
+    margin: 80px auto;
+}
+.relate h1{
+    text-align: center;
+}
+.rel_img{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  
+}
+.rel_img img{
+    width: 200px;
+    height: 100%;
+    margin: 0 20px;
+    
+}
+.Gallery{
+    width: 100%;
+    height: 470px;
+    margin: 80px auto;
+}
+.Gallery h1{
+    font-size: 36px;
+    text-align: center;
+    margin:20px;
+}
+.album{
+    width: 620px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    margin:0 auto;
+}
+.albumbox{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    transition: transform 0.5s ease-out;
+}
+.albumbox li{
+    margin: 0 auto;
+}
+.albumbox img{
+    width: 500px;
+    height: 100%;
+    margin: 0 0 0 60px;
+}
+.controlbtn span{
+    position: absolute;
+    top: 40%;
+    font-size: 3rem;
+    color: #333;
+    line-height: 25px;
+}
+.controlbtn span:hover{
+    text-shadow: 0 0 5px #333;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#lt{
+    left: 0;
+}
+#gt{
+    right: 0;
+}

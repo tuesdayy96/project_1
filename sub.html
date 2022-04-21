@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuesdayY</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub_1.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="account">
+            <a href="#"><img src="img/account.png" alt="account"></a>
+        </div>
+        <div>
+            <h1><a href="#">TUESDAY<span>Y</span></a></h1>
+        </div>
+        
+        <div id="iconlist">
+            <form action="#">
+                <ul id="hdrCon">
+                    <li class="hdrCon_sch"><a href="#"><img src="img/search.png" alt="search"></a></li>
+                    <li><a href="#"><img src="img/heart.png" alt="heart"></a></li>
+                    <li><a href="#"><img src="img/cart.png" alt="cart"></a></li>
+                </ul>
+                <input class="sch_bar" type="search" placeholder="&nbsp;#hot deal">
+            </form>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="navBar">
+
+            <li class="firstli"><a href="#">HOME</a>
+                <ul>
+                    <li><a href="">NEWS</a></li>
+                    <li><a href="">NOTICE</a></li>
+                    <li><a href="">GALLERY</a></li>
+                </ul>
+            </li>
+
+            <li class="firstli"><a href="#">PRODUCT</a>
+                <ul>
+                    <li><a href="">Furnitures</a></li>
+                    <li><a href="">Decorations</a></li>
+                    <li><a href="">Object</a></li>
+                    <li><a href="">Accessory</a></li>
+                </ul>
+            </li>
+
+            <li class="firstli"><a href="#">PROMOTION</a>
+                <ul>
+                    <li><a href="">On-going</a></li>
+                    <li><a href="">Over</a></li>
+                </ul>
+            </li>
+
+            <li class="firstli"><a href="#">BRAND</a>
+                <ul>
+                    <li><a href="">A-Z</a></li>
+                    <li><a href="">Furnitures</a></li>
+                    <li><a href="">Decor</a></li>
+                    <li><a href="">Object</a></li>
+                </ul>
+            </li>
+
+            <li class="firstli"><a href="#">ABOUT US</a>
+                <ul>
+                    <li><a href="">Story</a></li>
+                    <li><a href="">History</a></li>
+                </ul>
+            </li>
+
+            <li class="firstli"><a href="#">CONTACT US</a>
+                <ul>
+                    <li><a href="">Service Center</a></li>
+                    <li><a href="">Directions</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        <ul id="navBar2">
+            <li><a href="#"><img src="img/shipping.png" alt="shipping"><span>FREE SHIPPING</span></a></li>
+            <li>|</li>
+            <li><a href="#"><img src="img/support.png" alt="support"><span>SUPPORT 24/7</span></a></li>
+        </ul>
+    </nav>
+
+    <div id="buy">
+        <div class="buybox">
+            <ul class="root">
+                <li><a href="">PRODUCT</a></li>
+                <li>/</li>
+                <li><a href="">Furnitures</a></li>
+                <li>/</li>
+                <li><a href="">New Arrivals</a></li>
+                <li>/</li>
+                <li><a href="">black.frame.chair</a></li>
+            </ul>
+            <div class="subimg">
+                <ul class="autoslide">
+                    <li><img src="img/sub_chair.jpg" alt=""></li>
+                    <li><img src="img/sub_chair2.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="imgtext">
+                <p>Black Frame Chair</p>
+                <span>₩99,000</span>
+                <br><br><br><br><br><br><br>
+                <form name="form" class="counts" method="get">
+                    <input type="button" value="-" onclick="del()">
+                    <input type="text" name="amount" value="1" size="3" onchange="change()">
+                    <input type="button" value="+" onclick="add()">
+                    <br><br><br>
+                    <div class="countbox">
+                        Total Price : <input type="text" name="sum" readonly>won
+                    </div>
+                    <div class="addbox">
+                        <a href=""><span class="add1">Add to Cart</span></a>
+                        <a href=""><span class="add2">Add to Wish List</span></a>
+                    </div>
+                </form>
+                <div class="share">
+                    <ul class="sh_con">
+                        <li><a href=""><img src="img/insta_color.png" alt=""></a></li>
+                        <li><a href=""><img src="img/fb_color.png" alt=""></a></li>
+                        <li><a href=""><img src="img/twit_color.png" alt=""></a></li>
+                        <li><a href=""><img src="img/kakao.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="buybox2">
+            <div class="pd_info">
+                <div class="detailbox">
+                    <button class="pd_btn1 active" onclick="click_1()">Description</button>
+                    <div class="btn_info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam metus odio, finibus eget bibendum sit amet, ultricies posuere felis. Donec ornare, arcu ut suscipit pellentesque, dui ligula venenatis dolor, ac vehicula massa diam et erat. Quisque rutrum ligula eu sapien pretium pellentesque. Aenean augue massa, luctus nec maximus at, pellentesque nec lorem. Vestibulum at eros sit amet ex scelerisque volutpat. Curabitur vitae eros mauris. Nam tellus urna, euismod sed tempor in, consectetur ut mi.</div>
+                </div>
+                <div class="detailbox">
+                    <button class="pd_btn2" onclick="click_2()">Warranty</button>
+                    <div class="btn_info2">
+                        <h2>Warranty Policies</h2>
+            
+                        <p>TuesdayY's products are subject to the following Warranty Policy. The warranty period starts from the date of purchase and installation, and varies depending on the product family and model.<p>
+
+                        For detailed warranty period, please contact the head office.<p>
+                        TuesdayY's warranty policy covers all repairs and replacements for defects in basic parts, excluding consumables (ex)writing instruments and lamps, etc.), during the warranty period of the applicable product.<p>
+                        
+                        The following items are not covered by the warranty within the free warranty period.<p>
+                            
+                        • Damage caused by transport or installation (including transport handling). If the product is damaged in transit, please file a claim directly with the freight forwarder.<br>
+                        • Products whose product identification number (S/N, serial number) is lost or damaged<br>
+                        • Products for which payment has not been completed<br>
+                        • Problems resulting from the following: external defects resulting from accidents, incorrect use, electrical defects, improper operating environment, etc.<br>
+                        - Services performed without consultation with us (TuesdayY)<br>
+                        - Uses and Behaviors That Violate Product Recommendations<br>
+                        - Defects due to violations of product recommendations<br>
+                        - Defects caused by non-compliance with prevention/maintenance<br>
+                        - Use of accessories, parts, or components not supplied by TuesdayY<br>
+                        - Damage caused by fire, flood or other disaster<br>
+                        - User's discretionary product modifications<br>                    
+                        We are not responsible for any defects or defects in items other than our products. (The same applies for any defects or defects in our products stored in or used in our products.)<p>
+                        </p>
+                    </div>
+                </div>
+                <div class="detailbox">
+                    <button class="pd_btn3" onclick="click_3()">E.T.C</button>
+                    <div class="btn_info3">sit amet Lorem ipsum dolor, consectetur adipiscing elit. Nullam metus odio, finibus eget bibendum sit amet, ultricies posuere felis. Donec ornare, arcu ut suscipit pellentesque, dui ligula venenatis dolor, ac vehicula massa diam et erat. Quisque rutrum ligula eu sapien pretium pellentesque. Aenean augue massa, luctus nec maximus at, pellentesque nec lorem. Vestibulum at eros sit amet ex scelerisque volutpat. Curabitur vitae eros mauris. Nam tellus urna, euismod sed tempor in, consectetur ut mi.</div>
+                </div>
+            </div>
+            <div class="relate">
+                <h1>RELATED PRODUCT</h1>
+                <div class="rel_img">
+                    <a href=""><img src="img/chair3.jpg" alt=""></a>
+                    <a href=""><img src="img/chair1.jpg" alt=""></a>
+                    <a href=""><img src="img/chair4.jpg" alt=""></a>
+                    <a href=""><img src="img/chair5.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="Gallery">
+                <h1>GALLERY</h1>
+                <div class="album">
+                    <ul class="albumbox">
+                        <li><a href=""><img src="img/gallery1.jpg" alt=""></a></li>
+                        <li><a href=""><img src="img/gallery2.jpg" alt=""></a></li>
+                        <li><a href=""><img src="img/gallery3.jpg" alt=""></a></li>
+                        <li><a href=""><img src="img/gallery4.jpg" alt=""></a></li>
+                        <li><a href=""><img src="img/gallery5.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="controlbtn">
+                        <span id="lt">&lt;</span>
+                        <span id="gt">&gt;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="ftx">
+            <div class="footerbox">
+                <img src="img/logo_tuesdayy2.png" alt="">
+                <ul class="info">
+                    <li><img src="img/place.png" alt=""><span> Hwarang-ro 495, Sangnok-gu, Republic of Korea</span></li>
+                    <li><img src="img/call.png" alt=""><span> +82  10-0000-0000</span></li>
+                    <li><img src="img/mail_2.png" alt=""><span> TuesdayY@gmail.com</span></li> 
+                </ul>
+                <ul class="sns">
+                    <li><a href=""><img src="img/twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="img/insta.png" alt="" class=""></a></li>
+                </ul>
+            </div>
+            <div class="footerbox2">
+                <p>SHOPPING</p>
+                <ul class="ftext">
+                    <li><a href="">Your Cart</a></li>
+                    <li><a href="">Your Order</a></li>
+                    <li><a href="">Wallet</a></li>
+                    <li><a href="">Shopping Detail</a></li>
+                </ul>
+            </div>
+            <div class="footerbox2">
+                <p>MORE LINK</p>
+                <ul class="ftext">
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Gift Center</a></li>
+                    <li><a href="">New Arrivals</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footerbox3">
+                <p class="ftext">NEWS</p>
+                <div class="news1">
+                    <h1><a href="">01</a></h1><span>April</span>
+                    <p><a href="">April fool`s dayApril fool`s dayApril fool`s day
+                        April fool`s dayApril fool`s dayApril fool`s day
+                        April fool`s dayApril fool`s dayApril fool`s day
+                        April fool`s dayApril fool`s dayApril fool`s day</a>
+                    </p>
+                </div>
+                <hr>
+                <div class="news1">
+                    <h1><a href="">01</a></h1><span>April</span>
+                    <p><a href="">April fool`s dayApril fool`s dayApril fool`s day
+                        April fool`s dayApril fool`s dayApril fool`s day
+                        April fool`s dayApril fool`s dayApril fool`s day
+                        April fool`s dayApril fool`s dayApril fool`s day</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<script type="text/javascript" src="js/sub.js"></script>
+<script type="text/javascript" src="js/hd.js"></script>
+</body>
+</html>

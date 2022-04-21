@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+
+header div > h1{
+    font-family: 'Fredericka the Great', cursive;
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom:1px solid #333;
+}
+header img{
+    width:50px;
+    height: 50px;
+}
+a > img{
+    margin: 10px;
+}
+header h1{
+    font-size: 80px;
+    text-align: center;
+    text-indent: 1em;
+    margin: 0;
+    margin-left: 50px;
+}
+header h1 a{
+    text-shadow: 15px 0px 0px #666;
+}
+h1 span{
+    font-size: 100px;
+    
+}
+
+#hdrCon{
+    display: flex;
+    padding: 0;
+}
+#hdrCon li{
+    margin: 5px 1px;
+}
+#hdrCon li:nth-child(1){
+    transition: transform 0.5s ease;
+}
+.sc1{
+    transform: translateX(-220px) rotateY(180deg);
+    transition: transform 0.5s ease;
+}
+.sc2{
+    opacity: 1 !important;
+    transition: all 0.1s ease-out;
+    z-index: 1 !important;
+}
+#hdrCon ~input{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 18px;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 8px;
+    transition: all 0.1s ease-out;
+}
+nav{
+    width:1200px;
+    height: 100px;
+    font-weight:800;
+    font-size: 20px;
+    margin: 0 auto;
+}
+#navBar{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0;
+}
+
+li ul li a{
+    font-size: 15px;
+}
+nav ul{
+    padding: 0;
+}
+nav ul > li{
+    width: 200px;
+    text-align: center;
+}
+
+.firstli{
+    margin: 0;
+}
+
+#navBar:hover ul{
+    display: block;
+}
+.firstli ul{
+    position: absolute;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 150px;
+    z-index: 11;
+}
+.firstli ul li:hover a{
+    opacity: 0.8;
+}
+.firstli ul li{
+    margin: 0;
+}
+#navBar2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    height:50px;
+    padding: 0;
+}
+
+#navBar2 li a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+#navBar2 img{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #333;
+    margin:0 auto;
+}
+#ftx{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footerbox{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 11px;
+}
+.footerbox img{
+    width: 100%;
+    margin: 10px 0 0 10px;
+}
+.footerbox ul img{
+    width: 25px;
+    height: 25px;
+    vertical-align:middle;
+    margin: 3px;
+}
+.sns{
+    display: flex;
+    padding-left: 30px;
+}
+.info{
+    margin: 0;
+}
+.sns, li{
+    margin: 0 5px;
+}
+.footerbox2{
+    width:200px;
+    height: 100%;
+}
+.footerbox2 p{
+    font-size: 30px;
+}
+.footerbox3{
+    width: 400px;
+    height: 100%;
+}
+.footerbox2, .footerbox2 a{
+    font-size: 15px;
+    color: #eee;
+}
+.ftext:not(li){
+    font-size: 30px;
+}
+.ftext{
+    padding: 0;
+}
+.footerbox3, .footerbox3 a{
+    color: #eee;
+}
+.news1 h1{
+    display: inline;
+}
+.news1 p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 300px;
+    display: inline-block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+hr{
+    opacity: 0.5;
+}
