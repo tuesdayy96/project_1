@@ -1,5 +1,5 @@
 
-
+// 수량버튼
 var sell_price = 99000;
 var amount = document.form.amount.value;
 document.form.sum.value = sell_price;
@@ -30,7 +30,7 @@ function change(){
     sum.value = parseInt(hm.value)* sell_price;
 };
 
-
+// 설명버튼
 const detailbtn1 = document.getElementsByClassName('pd_btn1')[0];
 const detailbtn2 = document.getElementsByClassName('pd_btn2')[0];
 const detailbtn3 = document.getElementsByClassName('pd_btn3')[0];
@@ -66,7 +66,7 @@ function click_3(){
     document.querySelector('.pd_info').style.height = '400px';
 }
 
-
+// 사진 자동슬라이드
 slideIndex = 0;
 slideShow();
 function slideShow(){
@@ -82,7 +82,7 @@ slides[slideIndex-1].style.display = 'block';
 setTimeout(slideShow, 5000);
 }
 
-
+// 갤러리 슬라이드버튼
 let i = 0;
 let posiTion = 0;
 const imageWidth = 560;

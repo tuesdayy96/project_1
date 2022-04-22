@@ -1,3 +1,4 @@
+// 검색 애니메이션
 const sch = document.querySelector('.hdrCon_sch');
 const schBar = document.querySelector('.sch_bar');
 
