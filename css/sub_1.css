@@ -247,7 +247,7 @@
     height: 450px;
     overflow: hidden;
     position: relative;
-    margin:0 auto;
+    margin: 25px auto;
 }
 .albumbox{
     width: 100%;
@@ -257,8 +257,10 @@
     padding: 0;
     transition: transform 0.5s ease-out;
 }
-.albumbox li{
-    margin: 0 auto;
+.albumbox div{
+    width: 500px;
+    height: 100%;
+    margin-right: 60px;
 }
 .albumbox img{
     width: 500px;

@@ -4,7 +4,7 @@
 
 #main{
     width:1200px;
-    height:600px;
+    height:100%;
     margin:5px auto;
     position: relative;
     padding:10px 5px;
@@ -47,7 +47,7 @@
     padding:0;
 }
 .leather a{
-    color:#706263;
+    color:#f5eedd;
 }
 .leather div{
     position: absolute;
@@ -90,12 +90,13 @@
 }
 section{
     width:1200px;
-    height:2500px;
+    height:100%;
     margin:10px auto;
 }
 #decor{
     width:100%;
     height:450px;
+    margin: 80px auto;
 }
 .decorbox{
     display: flex;
@@ -131,7 +132,7 @@ section{
     font-size: 40px;
 }
 .decortextbox p{
-    font-size: 30px;
+    font-size: 20px;
 }
 .decortextbox button{
     opacity: 0.7;
@@ -164,7 +165,7 @@ section{
 #brandBar{
     width:100%;
     height:150px;
-    margin: 15px 0;
+    margin: 80px 0;
     border-top:1px solid rgba(0,0,0,0.3);
     border-bottom:1px solid rgba(0,0,0,0.3);
     
@@ -185,7 +186,7 @@ section{
 #furnitures{
     width:100%;
     height:450px;
-    margin:10px 0;
+    margin:80px 0;
 }
 .furbox{
     display: flex;
@@ -220,7 +221,7 @@ section{
     font-size: 40px;
 }
 .furtextbox p{
-    font-size: 30px;
+    font-size: 20px;
 }
 .furtextbox button{
     opacity: 0.7;
@@ -235,8 +236,8 @@ section{
 }
 #new{
     width: 100%;
-    height: 500px;
-    margin:10px 0;
+    height: 600px;
+    margin: 100px 0;
     background-color: #e8e8e8;
     position: relative;
 }
@@ -249,14 +250,14 @@ section{
     height:100%;
     position: absolute;
     top: 0px;
-    left: 50px;
+    left: 120px;
 }
 .bedbox{
     width: 400px;
     height: 400px;
     background-color: #fff;
     position: absolute;
-    top: 50px;
+    top: 100px;
     right:10%;
 }
 .bedtext{
@@ -287,7 +288,7 @@ section{
     height: 90px;
     background-color: #e68405;
     position: absolute;
-    top:10px;
+    top:55px;
     right: 475px;
     z-index: 2;
     text-align: center;
@@ -300,6 +301,7 @@ section{
 #top{
     width: 100%;
     height: 700px;
+    margin: 100px auto;
     position: relative;
 }
 .toptext h1{
@@ -345,6 +347,7 @@ section{
 #newsletter{
     width:100%;
     height:150px;
+    margin: 100px auto;
     border-top: 1px solid rgba(0,0,0,0.3);
     position: relative;
 }

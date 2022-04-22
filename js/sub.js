@@ -89,7 +89,7 @@ const imageWidth = 560;
 const prevbtn = document.getElementById('lt');
 const nextbtn = document.getElementById('gt');
 const images = document.querySelector('.albumbox');
-const imgcount = document.querySelectorAll('.albumbox li');
+const imgcount = document.querySelectorAll('.albumbox div');
 
 function prev(){
 if(i > 0){
