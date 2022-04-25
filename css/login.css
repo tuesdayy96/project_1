@@ -9,6 +9,10 @@ div > h1{
 div > h1 span{
     font-size: 100px;
 }
+div > h3{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+}
 #main{
     width: 600px;
     height: 700px;
