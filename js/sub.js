@@ -37,6 +37,10 @@ const detailbtn3 = document.getElementsByClassName('pd_btn3')[0];
 const btn_1 = document.querySelector('.btn_info1');
 const btn_2 = document.querySelector('.btn_info2');
 const btn_3 = document.querySelector('.btn_info3');
+var op_count = 0;
+var op_count2 = 0;
+var op_count3 = 0;
+var settime_func;
 
 function click_1(){
     detailbtn1.classList.add('active');
