@@ -1,4 +1,4 @@
-//로그인 화면
+//로그인 화면 id = admin pw = 1234
 var id = document.getElementById('id');
 var pw = document.getElementById('pw');
 var login = document.getElementById('login');

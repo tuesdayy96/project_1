@@ -1,3 +1,4 @@
+//회원가입 인풋---빈칸이 아닌경우 넘어갈 수 있음.
 let id = document.getElementById('id');
 let mail = document.getElementById('mail');
 let pw = document.getElementById('pw');
@@ -25,3 +26,4 @@ function conpop(){
 function closepop(){
     self.close();
 }
+//-------------------------------------
