@@ -19,7 +19,7 @@ login.addEventListener('click',join);
 
 //회원가입 팝업
 function popup(){
-   window.open('sign.html',"회원가입",'width=650,height=750,top=100,left=500px,location=no,toolbar=no')
+   window.open('sign.html',"회원가입",'width=650,height=750,top=110px,left=550px,location=no,toolbar=no')
     
 }
 sign.addEventListener('click',popup);
