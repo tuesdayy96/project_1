@@ -14,7 +14,11 @@ function conpop(){
             window.open('index.html', '_blank');
         }
     } else {
-        alert('Please check your input information again.');
+        if(pw.value !== pw2.value){
+            alert('Passwords do not match.');
+        } else {
+            alert('Please check your input information again.');
+        }
     }
 }
 
